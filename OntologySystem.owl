@@ -1,0 +1,1196 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Ontology1296319106748 "http://www.semanticweb.org/ontologies/2011/0/Ontology1296319106748.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Ontology1296319106748="http://www.semanticweb.org/ontologies/2011/0/Ontology1296319106748.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl">
+        <owl:imports rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1296319106748.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasBehavior -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasBehavior">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#isBehaviorOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasEquilibrity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasEquilibrity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasFeedback -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasFeedback">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasSelfRegulation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasGoal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasGoal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasInformation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasInformation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasInputInformation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasInputInformation">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasInformation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasIntegrity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasIntegrity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasInternalInformation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasInternalInformation">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasInformation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasNegativeFeedback -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasNegativeFeedback">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasFeedback"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasOutputInformation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasOutputInformation">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasInformation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasPositiveFeedback -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasPositiveFeedback">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasFeedback"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasPotentiality -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasPotentiality">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasStructurality"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasSelfRegulation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasSelfRegulation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasStructurality -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasStructurality"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasStructure -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasStructure">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#isStructureOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasSubgoal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasSubgoal">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasGoal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasTimeDependence -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasTimeDependence"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasVelocity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasVelocity">
+        <rdfs:subPropertyOf rdf:resource="&Ontology1296319106748;hasPhysicoChemicalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#isBehaviorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#isBehaviorOf">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#isDurationOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#isDurationOf">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <owl:inverseOf rdf:resource="&Ontology1296319106748;hasDuration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#isFormOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#isFormOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#isGoalOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#isGoalOf">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasGoal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#isScopeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#isScopeOf">
+        <owl:inverseOf rdf:resource="&Ontology1296319106748;hasScope"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#isStructureOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#isStructureOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1296319106748.owl#hasDuration -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1296319106748;hasDuration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1296319106748.owl#hasForm -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1296319106748;hasForm">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#isFormOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1296319106748.owl#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1296319106748;hasLocation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1296319106748.owl#hasPhysicoChemicalProperty -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1296319106748;hasPhysicoChemicalProperty"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1296319106748.owl#hasScope -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1296319106748;hasScope"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <owl:ObjectProperty rdf:about="&owl;topObjectProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasActualState -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasActualState">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasState"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasDuration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasDuration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasEndState -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasEndState">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasState"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasInitialState -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasInitialState">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasState"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasIntermediateState -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasIntermediateState">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasState"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasState -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasState"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Abstract_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Abstract_system">
+        <rdfs:label>That elements consist of concepts and/or signs.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_existence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Activity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Actor">
+        <owl:equivalentClass rdf:resource="&Ontology1296319106748;Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Ambiguous_boundary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Ambiguous_boundary">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Fuzzy_boundary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Behavior"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Boundary_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Boundary_type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System_Boundary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Cascading_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Cascading_system">
+        <rdfs:label>Regarding to the flow of energy and/or matter from one element to another and  the processes that cause this movement are clear.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_relationship_understanding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Closed_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Closed_system">
+        <rdfs:label>That transfer both matter and energy through its boundary to the surrounding environment.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_interaction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Component -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Component">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Subsystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Controlled_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Controlled_system">
+        <rdfs:label>Its information is sensed, and changes are effected in response to the information.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_control"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Density -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Density">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Duration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Duration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Dynamic_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Dynamic_system">
+        <rdfs:label>That state changes over time.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_changeability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Energy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Energy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Input"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Energy_transformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Energy_transformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Transformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Environment">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Surroundings"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System"/>
+        <rdfs:comment>A complex of external factors that acts on a system and determines its course and form of existence.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Environment_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Environment_type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Equilibrity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Equilibrity">
+        <rdfs:comment>The state of being balanced.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Event">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Subprocess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Feedback -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Feedback">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Self-regulation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Fixed_boundary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Fixed_boundary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Boundary_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Form -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Form"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Fuzzy_boundary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Fuzzy_boundary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Boundary_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Geometrical_transformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Geometrical_transformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Mathematical_transformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Human-Human_interaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Human-Human_interaction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Interaction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Human-Machine_interaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Human-Machine_interaction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Interaction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Human-Nature_interaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Human-Nature_interaction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Interaction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Human_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Human_system">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_origin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Information"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Input -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Input">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Interface"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Input_information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Input_information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Integrity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Integrity">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System"/>
+        <rdfs:comment>A concept of consistency of actions, values, methods, measures, principles, expectations, and outcomes.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Interaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Interaction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Relation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Interface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Interface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Subsystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Internal_information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Internal_information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Knowledge_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Knowledge_system">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Abstract_system"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Level">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Structure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Linear_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Linear_system">
+        <rdfs:label>Its behavior can be described by equation of the first degree.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_linearity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Linear_transformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Linear_transformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Geometrical_transformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Machine-Machine_interaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Machine-Machine_interaction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Interaction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Mass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Mass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Mathematical_transformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Mathematical_transformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Transformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Matter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Matter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Input"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Morphological_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Morphological_system">
+        <rdfs:label>In which the relationships between elements and their attributes are understanded in a vague sense based only on measured features or correlations.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_relationship_understanding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Natural_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Natural_system">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_origin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Negative_feedback -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Negative_feedback">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Feedback"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Non-linear_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Non-linear_system">
+        <rdfs:label>That can be described by equations of the second and higher degree.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_linearity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Non-linear_transformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Non-linear_transformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Geometrical_transformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Open_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Open_system">
+        <rdfs:label>That transfers energy, but not matter, across its boundary to the surrounding environment.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_interaction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Operation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Operation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Output -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Output">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Interface"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Output_information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Output_information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Physical_environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Physical_environment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Environment_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Positive_feedback -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Positive_feedback">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Feedback"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Potentiality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Potentiality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Structurality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Pressure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Pressure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Process-response_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Process-response_system">
+        <rdfs:label>That integrate the characteristics of both morphological and cascading systems.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_relationship_understanding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Process_boundary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Process_boundary">
+        <rdfs:subClassOf rdf:resource="&Ontology1296319106748;Process"/>
+        <rdfs:comment>Encloses concrete set of activities.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Real_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Real_system">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_existence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Reflection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Reflection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Linear_transformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Regulation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Regulation">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Relation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Relation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Structure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Rotation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Rotation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Linear_transformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Self-regulation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Self-regulation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Regulation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#State"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Static_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Static_system">
+        <rdfs:label>That components and structures are at a constant velocity.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_changeability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Structurality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Structurality">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Structure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Structure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Subprocess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Subprocess">
+        <rdfs:subClassOf rdf:resource="&Ontology1296319106748;Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Substance_transformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Substance_transformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Transformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Subsystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Subsystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Surroundings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Surroundings"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Time_dependence"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Unit"/>
+        <rdfs:comment>A scheme, organization, set of rules, living body etc. and it is a group of independent but interrelated elements comprising a unified whole.</rdfs:comment>
+        <owl:hasKey rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasEquilibrity"/>
+        </owl:hasKey>
+        <owl:hasKey rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#hasInformation"/>
+        </owl:hasKey>
+        <owl:hasKey rdf:parseType="Collection">
+            <rdf:Description rdf:about="&Ontology1296319106748;hasLocation"/>
+        </owl:hasKey>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System_Boundary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System_Boundary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System"/>
+        <rdfs:comment>A boundary that separates the internal components of a system from external entities.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System_type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Time_dependence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Time_dependence"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Transformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Transformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Relation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Translation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Translation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Linear_transformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_changeability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_changeability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_existence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_existence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_interaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_interaction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_linearity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_linearity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_origin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_origin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_relationship_understanding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_relationship_understanding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Uncontrolled_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Uncontrolled_system">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Type_of_system_control"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Unit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Unit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Volume -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Volume">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Weight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Weight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1296319106748.owl#Agent -->
+
+    <owl:Class rdf:about="&Ontology1296319106748;Agent">
+        <rdfs:comment>A substance that exerts some force or effect.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1296319106748.owl#Process -->
+
+    <owl:Class rdf:about="&Ontology1296319106748;Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Ecosystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Ecosystem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Natural_system"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Equilibrium_ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Equilibrium_">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Equilibrity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Fungi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Fungi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Natural_system"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Ice_sheet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Ice_sheet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Natural_system"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Non-equilibrium -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Non-equilibrium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Equilibrity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Plant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Plant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Natural_system"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Pollen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Pollen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Natural_system"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Reptile -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Reptile">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/0/Ontology1295851624158.owl#Natural_system"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="&Ontology1296319106748;External_agent">
+        <rdfs:comment>Entity which interact with a system and may influence its processes, but are not under its direct control.</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
